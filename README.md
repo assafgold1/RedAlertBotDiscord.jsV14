@@ -1,4 +1,4 @@
-#Red Alert Bot Discord.js V14
+Red Alert Bot Discord.js V14
 
 the open source code was created by jewdev under the use of the GNU license
 the version of discord.js has been upgraded from version 14.1.2 to version 14.9.0

@@ -11,9 +11,7 @@ module.exports = {
 
     async execute(interaction, Client) {
         try {
-            const { options, channel, guild} = interaction
-            const Channel = options.getChannel("redalert")
-            await db.set(`redalerts_${guild.id}`, { GuildId: guild.id, ChannelId: Channel.id })
+            const { options, channel, guild}
             interaction.reply({ content: `sucssesfuly registerd channel for red alerts in ${Channel}`, ephemeral: true });
         } catch(err) { console.error(err) }
     }

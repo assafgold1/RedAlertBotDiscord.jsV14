@@ -8,7 +8,8 @@
         "dev": "nodemon index.js"
     },
     "keywords": [],
-    "author": "jewdev",
+    "license": "GPL-3.0",
+    "author": "jewdev & Corazon",
     "dependencies": {
         "axios": "^0.27.2",
         "better-sqlite3": "^8.2.0",
